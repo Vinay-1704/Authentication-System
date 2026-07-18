@@ -9,6 +9,7 @@ db_url=os.getenv("postgresql://neondb_owner:npg_P64alXrRmIBk@ep-gentle-darkness-
 
 engine= create_engine(db_url)
 
+print("DATABASE_URL:", db_url)
 sessionLocal = sessionmaker(
     autocommit=False,
     autoflush=False,
