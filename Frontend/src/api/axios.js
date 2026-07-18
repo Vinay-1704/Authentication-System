@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'https://authentication-system-pi-neon.vercel.app',
+  baseURL: 'https://authentication-system1-qeg9.onrender.com',
 });
 
 // Attach JWT token to every request if available
