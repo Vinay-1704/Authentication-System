@@ -24,6 +24,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",
         "https://authentication-system-pi-neon.vercel.app",
+        "https://authentication-system-l46q7t84d-vinays-projects-317cf85e.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
